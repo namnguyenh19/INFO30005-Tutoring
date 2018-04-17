@@ -37,7 +37,8 @@ function initMap(data) {
         });
         //create marker
         var marker = new google.maps.Marker({ position: latLng,
-            title: name
+            title: name,
+            label: name.split("-")[0]
         });
 
         // add eventListener then add to map
