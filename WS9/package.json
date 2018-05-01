@@ -1,0 +1,19 @@
+{
+  "name": "sample_app",
+  "version": "1.0.0",
+  "description": "A sample app with REST API capability",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.17"
+  }
+}
